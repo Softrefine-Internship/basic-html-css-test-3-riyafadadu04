@@ -160,10 +160,12 @@ body {
 
 .status-data .data {
   font-weight: 600;
+  /* font-size: 1.1rem; */
   margin-bottom: 10px;
 }
 
 .status-data .sec-data {
+  font-size: 0.9rem;
   color: #ffffffb2;
 }
 .sec-data {
