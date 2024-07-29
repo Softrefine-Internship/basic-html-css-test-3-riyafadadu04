@@ -21,7 +21,7 @@ body {
 }
 
 .head {
-  background-image:linear-gradient(#ff9a4eac , #fd5656a1) , url("./assets/Stunning-Mountain-Sunrise-Vector-Art-Graphics-56995239-1-580x387.jpg");
+  background-image:linear-gradient(to top,  #261c1ad7 , #b0b0b04e) , url("./assets/mountains-color-translucent-waves-abstract-glass-shape-modern-background-design-illustration-vector.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -155,7 +155,7 @@ body {
 }
 
 .progress-bar-1 {
-  background: radial-gradient(closest-side, #ff7e39e7 79%, transparent 80% 100%),
+  background: radial-gradient(closest-side, #ab7561 79%, transparent 80% 100%),
     conic-gradient(#fca424 60.4%, #ffffff5f 0);
 }
 
@@ -350,7 +350,7 @@ body {
   margin: 40px 0px 20px 15px;
   flex: 1;
   border-radius: 5px;
-  box-shadow: 0 0px 30px #a6a6a678;
+  box-shadow: 0 0px 30px #cbcbcb85;
 }
 
 .card-img img {
@@ -436,7 +436,7 @@ body {
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 5px;
-  box-shadow: 0 0px 30px #8888886b;
+  box-shadow: 0 0px 30px #cbcbcb85;
 
 }
 
@@ -507,7 +507,7 @@ box-shadow: 0 0 10px #f7c272;
   border-radius: 5px;
   padding: 20px;
   width: 32%;
-  box-shadow: 0 0px 30px #8888886b;
+  box-shadow: 0 0px 30px #cbcbcb85;
 }
 .activity-list{
   overflow-y: scroll;
