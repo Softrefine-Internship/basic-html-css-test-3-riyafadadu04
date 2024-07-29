@@ -21,8 +21,9 @@ body {
 }
 
 .head {
-  background-image:linear-gradient(#efa12bac , #efa12b5e) , url("./assets/yellow-mountain-silhouette-background-ai-generated-photo.jpg");
+  background-image:linear-gradient(#ff9a4eac , #fd5656a1) , url("./assets/Stunning-Mountain-Sunrise-Vector-Art-Graphics-56995239-1-580x387.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   height: auto;
   width: 100%;
@@ -154,13 +155,12 @@ body {
 }
 
 .progress-bar-1 {
-  background: radial-gradient(closest-side, #fbbd48 79%, transparent 80% 100%),
+  background: radial-gradient(closest-side, #ff7e39e7 79%, transparent 80% 100%),
     conic-gradient(#fca424 60.4%, #ffffff5f 0);
 }
 
 .status-data .data {
   font-weight: 600;
-  /* font-size: 1.1rem; */
   margin-bottom: 10px;
 }
 
@@ -198,6 +198,7 @@ body {
   margin-right: 0;
   height: 30px;
   font-size: 1.5rem;
+  cursor: pointer;
   opacity: 0.6;
   background: #ffffff47;
 
@@ -321,6 +322,10 @@ body {
   border-radius: 3px;
   margin-top: -20px;
 }
+.profile-btn-item:hover {
+  box-shadow: 0 0 10px #5dffd4
+
+}
 
 .profile-cards {
   display: flex;
@@ -345,7 +350,7 @@ body {
   margin: 40px 0px 20px 15px;
   flex: 1;
   border-radius: 5px;
-  box-shadow: 0 0px 50px #a6a6a678;
+  box-shadow: 0 0px 30px #a6a6a678;
 }
 
 .card-img img {
@@ -431,7 +436,7 @@ body {
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 5px;
-  box-shadow: 0 0px 50px #8888886b;
+  box-shadow: 0 0px 30px #8888886b;
 
 }
 
@@ -486,6 +491,10 @@ body {
   width: 100%;
   cursor: pointer;
 }
+.per-btn-item:hover {
+box-shadow: 0 0 10px #f7c272;
+}
+
 
 .m-button {
   width: 15%;
@@ -498,7 +507,7 @@ body {
   border-radius: 5px;
   padding: 20px;
   width: 32%;
-  box-shadow: 0 0px 50px #8888886b;
+  box-shadow: 0 0px 30px #8888886b;
 }
 .activity-list{
   overflow-y: scroll;
