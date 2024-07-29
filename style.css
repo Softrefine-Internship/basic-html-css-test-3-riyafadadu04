@@ -16,12 +16,13 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #1A1A1A;
+  color: #1a1a1a;
   overflow-x: hidden;
 }
 
 .head {
-  background-image:linear-gradient(to top,  #261c1ad7 , #b0b0b04e) , url("./assets/mountains-color-translucent-waves-abstract-glass-shape-modern-background-design-illustration-vector.jpg");
+  background-image: linear-gradient(to top, #261c1ad7, #b0b0b04e),
+    url("./assets/mountains-color-translucent-waves-abstract-glass-shape-modern-background-design-illustration-vector.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -34,7 +35,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   height: auto;
-  color: #FEFEFE;
+  color: #fefefe;
   padding: 32px 0px;
   width: 96%;
   margin: 0 auto;
@@ -46,11 +47,11 @@ body {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  color: #CDCDCD;
+  color: #cdcdcd;
 }
 
 .li-btn {
-  color: #FEFEFE;
+  color: #fefefe;
   background: #eaeaea3e;
   padding: 5px 10px;
   border: none;
@@ -65,7 +66,7 @@ body {
   cursor: pointer;
 }
 
-.noti::after{
+.noti::after {
   content: "";
   position: absolute;
   width: 5px;
@@ -81,14 +82,14 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 5px;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 .intro {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: #FEFEFE;
+  color: #fefefe;
   position: relative;
   gap: 20px;
   width: 96%;
@@ -137,28 +138,48 @@ body {
   margin-bottom: 20px;
 }
 
-.progress-bar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-}
-.percentage {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 55px;
-  height: 55px;
-  font-size: 0.9rem;
-  border-radius: 50%;
-  background: #ffffff5f;
+
+.progress {
+  position: relative;
+  height: 100px;
+  width: 100px;
 }
 
-.progress-bar-1 {
-  background: radial-gradient(closest-side, #ab7561 79%, transparent 80% 100%),
-    conic-gradient(#fca424 60.4%, #ffffff5f 0);
+.progress-circle {
+  transform: rotate(-90deg);
+  margin-top: -95px;
+  margin-left: -10px;
+}
+
+.progress-circle-back {
+  fill: none;
+  stroke: #ffffff2c;
+  stroke-width: 10px;
+}
+
+.progress-circle-prog {
+  fill: none;
+  stroke: #fca424;
+  stroke-width: 10px;
+  stroke-dasharray: 212.06 999;
+  stroke-dashoffset: -69px;
+  transition: stroke-dasharray 0.7s linear 0s;
+}
+
+.progress-text {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: #ffffff5a;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  text-align: center;
+  font-size: 1em;
 }
 
 .status-data .data {
@@ -203,7 +224,6 @@ body {
   cursor: pointer;
   opacity: 0.6;
   background: #ffffff47;
-
 }
 
 /*================================================================  */
@@ -224,7 +244,7 @@ body {
   padding: 50px 30px 0px 0;
   border-right: 1px solid #dbdbdb9c;
 }
-.fa-ellipsis{
+.fa-ellipsis {
   cursor: pointer;
 }
 .side-head {
@@ -293,7 +313,7 @@ body {
   display: none;
 }
 
-.radio-buuton:checked~.navigation-item {
+.radio-buuton:checked ~ .navigation-item {
   border-bottom: 2px solid #fca424;
   color: #000000;
 }
@@ -303,7 +323,7 @@ body {
   cursor: pointer;
 }
 
-.navigation-item i{
+.navigation-item i {
   margin-right: 10px;
 }
 
@@ -312,7 +332,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 50px;
-  color: #CDCDCD;
+  color: #cdcdcd;
 }
 
 .profile-btn-item {
@@ -320,13 +340,12 @@ body {
   background: #0dd39d;
   padding: 8px 20px;
   border: none;
-  color: #FEFEFE;
+  color: #fefefe;
   border-radius: 3px;
   margin-top: -20px;
 }
 .profile-btn-item:hover {
-  box-shadow: 0 0 10px #5dffd4
-
+  box-shadow: 0 0 10px #5dffd4;
 }
 
 .profile-cards {
@@ -347,7 +366,7 @@ body {
 .p-card {
   display: flex;
   flex-direction: row;
-  background: #FEFEFE;
+  background: #fefefe;
   padding: 30px 0px;
   margin: 40px 0px 20px 15px;
   flex: 1;
@@ -370,7 +389,7 @@ body {
   font-size: 14px;
   justify-content: center;
   align-items: center;
-  color: #FEFEFE;
+  color: #fefefe;
   background: #0dd39e9b;
   width: 35px;
   height: 35px;
@@ -420,7 +439,7 @@ body {
   width: 65.5%;
 }
 
-.margin-t-l{
+.margin-t-l {
   margin-left: 15px;
 }
 
@@ -430,7 +449,7 @@ body {
 }
 
 .m-person {
-  background: #FEFEFE;
+  background: #fefefe;
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -439,7 +458,6 @@ body {
   margin-bottom: 20px;
   border-radius: 5px;
   box-shadow: 0 0px 30px #cbcbcb85;
-
 }
 
 .per-data {
@@ -456,7 +474,7 @@ body {
   object-fit: cover;
 }
 
-.person-card-item  {
+.person-card-item {
   margin-bottom: 10px;
   color: #969696a0;
   word-spacing: 5px;
@@ -465,7 +483,7 @@ body {
 .m-person-data {
   margin-left: 10px;
 }
-.last-person-card{
+.last-person-card {
   margin-bottom: 0px;
 }
 .m-person-data p:last-child {
@@ -488,15 +506,14 @@ body {
   background: #fca424;
   padding: 10px 20px;
   border: none;
-  color: #FEFEFE;
+  color: #fefefe;
   border-radius: 5px;
   width: 100%;
   cursor: pointer;
 }
 .per-btn-item:hover {
-box-shadow: 0 0 10px #f7c272;
+  box-shadow: 0 0 10px #f7c272;
 }
-
 
 .m-button {
   width: 15%;
@@ -505,22 +522,21 @@ box-shadow: 0 0 10px #f7c272;
 /* ======================================================= */
 
 .activity {
-  background: #FEFEFE;
+  background: #fefefe;
   border-radius: 5px;
   padding: 20px;
   width: 32%;
   box-shadow: 0 0px 30px #cbcbcb85;
 }
-.activity-list{
+.activity-list {
   overflow-y: scroll;
   height: 380px;
-
 }
-.activity-list::-webkit-scrollbar{
+.activity-list::-webkit-scrollbar {
   width: 5px;
 }
 
-.activity-list::-webkit-scrollbar-thumb{
+.activity-list::-webkit-scrollbar-thumb {
   background-color: #fca424;
   border-radius: 5px;
 }
@@ -554,12 +570,11 @@ box-shadow: 0 0 10px #f7c272;
   color: #c2bfbfe6;
   font-size: 0.9rem;
 }
-.acti-address{
+.acti-address {
   margin-bottom: 5px;
 }
-.fa-circle-dot{
+.fa-circle-dot {
   margin-right: 8px;
-
 }
 .acti-head {
   font-weight: 500;
